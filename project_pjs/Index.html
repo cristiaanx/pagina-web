@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="info">
+
+            <p class="txt-1">Gracias por visitarnos</p>
+            <h1>Pijamas la Aurora</h1>
+            <hr>
+            <p class="txt-2">
+                NO RENUNCIES A TU ESTILO CUANDO LLEGUES A CASA. ENCUENTRA AQUI TU PERFECTA PIJAMA. 
+            </p>
+        </div>
+
+        <form class="form" id="LogForm">
+            
+            <h2>Bienvenido</h2>
+            <p class="txt-3">
+                Por favor ingresa tu usuario y contraseña para continuar
+            </p>
+            <div class="inputs">
+                <input required type="email" id="login_username" class="box" placeholder="Ingrese su correo">
+                <input required type="password" class="box" id="login_password" placeholder="Ingresa su contraseña">
+                <input required type="reset" onclick='validate()' value="Inciar sesión" class="submit">
+                <a href="Registro.html" class="submit-1">Crear cuenta</a>
+                
+            </div>
+
+            <div class="olvide">
+                <a href="#">Olvidaste tu contraseña</a>
+            </div>
+        </form>
+
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
