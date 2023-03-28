@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E8B5EB;
+}
+
+.container{
+    display: flex;
+    height: 700px;
+    width: 1100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.info {
+    background-image: url(pijama.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 150px;
+    width: 50%;
+
+}
+
+.txt-1{
+    color: black;
+    text-transform: none;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.info h1{
+    color: black;
+    text-transform: none;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.info hr {
+    width: 55px;
+    border: 4px solid black;
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+
+.txt-2{
+    color: black;
+    font-size: 18px;
+}
+
+.form{
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: #E8B5EB;
+
+}
+
+.form h2{
+     color: cadetblue;
+     font-size: 35px;
+     margin-bottom: 10px;
+
+}
+
+.form p{
+    font-size: 15px;
+    color: rgb(52, 56, 56);
+    margin-bottom: 25px;
+}
+
+.form p{
+    color: darkorchid;
+    font-size: 19px;
+}
+
+.inputs{
+    display:flex;
+    flex-direction: column;
+} 
+
+.box {
+    outline: none;
+    border-color: darkorchid;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+
+}
+
+
+.submit {
+    background-color: darkorchid;
+    padding: 15px;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.inputs a{
+    background-color: darkorchid;
+    padding: 15px;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+
+.olvide a{
+    color: blue;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+
+.form-register{
+    width: 400px;
+    background-color: #E8B5EB;
+    padding: 30px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: wheat;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h3 {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 20px;    
+}
+
+.controls{
+    width: 100%;
+    outline: none;
+    border-color: darkorchid;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+
+}
+
+.form-register p{
+    color: darkorchid;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+   width: 100%; 
+   background: white;
+   border: none;
+   padding: 12px;
+   color: black;
+   margin: 16px 0;
+   font-size: 16px;
+
+}

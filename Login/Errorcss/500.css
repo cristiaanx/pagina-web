@@ -1,0 +1,38 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body {
+    background-color: #E8B5EB;
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+}
+
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+a{
+    background-color: darkorchid;
+    font-size: 35px;
+    border-radius: 50px;
+    color: black;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
